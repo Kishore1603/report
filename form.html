@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  
+  
+  <link rel="stylesheet" href="styletwo.css">
+  <title>Task Management</title>
+</head>
+
+<body>
+  <header id="about">
+    <nav id="navbar">
+    </nav>
+    <div id="welcome-section" class="container">
+      <h1 id="title">Employee Details</h1>
+    </div>
+
+  </header>
+  <section id="projects">
+    <form 
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycbwo_tR5Ku8DwGUodNH5RpMpOmvD8vCIrgOrjqE4lE3FEVJzUfM5vfrdGrqNiqL3u3EjyQ/exec"
+>
+  <input name="Team" type="number" placeholder="Employee ID" required>
+  <input name="Name" type="text" placeholder="Name" required>
+  <input name="Email" type="email" placeholder="Email" required>
+  <label for="Designation">Designation</label>
+  <select id="Designation" name="Designation">
+    <option value="Member">Member</option>
+    <option value="TL">TL</option>
+    <option value="Manager">Manager</option>
+  </select>
+  
+  <button type="submit">Send</button>
+</form>
+
+  </section>
+</body>
+
+</html>
+
+
+
+
